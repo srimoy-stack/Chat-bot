@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Quiz Chatbot</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+    
+    <div class="chatbot">
+      <div class="chatbot-header">
+        <div class="chatbot-name">
+          <img src="logo (2).png" class="chatbot-logo"/>
+          <h2 class="chatbot-title">Benesse bot</h2>
+        </div>
+        <!-- <p class="chatbot-status">Online</p> -->
+      </div>
+      <div class="chatbot-body">
+        <div class="chatbot-message">
+          <p>Hi!👋🏻 Greetings from Benesse. <br>How can I assist you today?</p>
+          <div class="chatbot-options">
+            <button>Offerings</button>
+            <button>Team</button>
+            <button>Mentorship</button>
+            <button onclick="startQuiz()">Play quiz</button>
+          </div>
+         
+          
+        </div>
+        <div class="chatbot-input">
+          <div id="chatbot-messages"></div>
+          <input type="text" placeholder="Type your message here..." class="chatbot-input">
+          <img src="https://img.icons8.com/external-kmg-design-flat-kmg-design/100/000000/external-send-user-interface-kmg-design-flat-kmg-design.png" class="chatbot-send"/>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
+
